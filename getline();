@@ -27,8 +27,11 @@ using namespace std;
 		while ( ! inFile.eof ( ) ) 
 		
 		{
+			
 			inFile.getline( completeLineText , MAX_CHAR_TO_READ );
+			
 			cout << completeLineText << '\n';
+	
 		}
 		
 		
